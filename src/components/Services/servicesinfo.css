@@ -1,0 +1,71 @@
+
+.services-container {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 40px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    color:aliceblue;
+
+}
+
+.box {
+    background: #333;
+    padding: 20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    opacity: 0.95;
+}
+
+.services-container .box:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.services-container .box:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.services-container .box:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+@media (max-width: 991px) {
+    .services-container .box:nth-child(3) {
+  padding-left: 50%;
+    }
+
+}
+
+@media (max-width: 701px) {
+    .services-container {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+    }
+}
+
+
+
+.sherbimet {
+    font-size: x-large;
+    padding: 30px;
+
+}
+.sherbimet2 {
+    padding: 30px;
+    font-size: x-large;
+
+}
+.sherbimet3 {
+    padding-left: 90px;
+    font-size: x-large;
+
+}
+.image {
+    padding-left: 37%;
+}
+
