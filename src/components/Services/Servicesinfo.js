@@ -84,6 +84,3 @@ function Servicesinfo() {
 }
 
 export default Servicesinfo;
-
-
-
