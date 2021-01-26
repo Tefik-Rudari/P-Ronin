@@ -10,11 +10,7 @@ function Services() {
     <>
       <Navbar />
       <section>
-      <div className='box'>
         <div className='services-content'>
-            <div className='image'>
-            <img src={imazhi2} width="100" height="100" alt='imazhi'></img>
-            </div>
             <div className='image'>
             <img src={imazhi2} width="100" height="100" alt='imazhi'></img>
             </div>
@@ -35,7 +31,6 @@ function Services() {
 
           </div>
         </div>
-      </div>
       </section>
       <section>
         <div className='services-content'>
