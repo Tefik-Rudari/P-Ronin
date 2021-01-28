@@ -15,11 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
-<<<<<<< HEAD
           <Route path='/projects' component={Projects} />
-=======
-          <Route path='/products' component={Product} />
->>>>>>> 7c38ab1bcd9c83ac6413402be0d6efd0628678e4
           <Route path='/sign-up' component={SignUp} />
         </Switch>
       </Router>
