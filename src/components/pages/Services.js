@@ -1,9 +1,29 @@
 import '../../App.css';
 import Navbar from '../Navbar/Navbar'
+import Gallery from 'react-photo-gallery'
 import imazhi2 from '../Services/webpage.png';
 import imazhi3 from '../Services/webservice.png';
 import imazhi from '../Services/webhook.png';
+import image1 from './img-8.jpg';
+import image2 from './img-9.jpg';
 import './services.css'
+
+const photos = [
+  {
+    src: image1,
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+    width: 1,
+    height: 1
+  },
+  {
+    src: image2,
+    sizes: ["(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw"],
+    width: 1,
+    height: 1
+  }
+];
+ 
+
 
 function Services() {
   return (
@@ -62,7 +82,8 @@ function Services() {
             </div>
               <h1>WEB RELATED SERVICES</h1>
             <div className='sherbimet3'>
-              <ul>
+              <p>We also offer services like Social Media boosts, SEO and Digital Representation to help your business thrive</p>
+              {/* <ul>
                 <li>Social Media boosts​</li>
               </ul>
               <ul>
@@ -70,10 +91,12 @@ function Services() {
               </ul>
               <ul>
                 <li>Digital Representation​</li>
-              </ul>
+              </ul> */}
             </div>
         </div>
       </section>
+      <Gallery  photos={photos} />;
+      {/* <GridGallery /> */}
     </>
   );
 }
