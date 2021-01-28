@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  opacity:inherit;
 }
 
 .navbar-container {
@@ -19,7 +20,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: blue;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -37,11 +38,10 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
+  justify-content: center;
   margin-right: 2rem;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: blue;
   display: flex;
   align-items: center;
   text-decoration: none;
