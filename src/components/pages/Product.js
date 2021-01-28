@@ -1,6 +1,11 @@
-import React from 'react';
 import '../../App.css';
+import ProductScreen from '../Products/ProductScreen.js';
 
-export default function Product() {
-  return <h1 className='product'>LIKE & SUBSCRIBE</h1>;
+function Product() {
+  return (
+    <>
+      <ProductScreen />
+    </>
+  );
 }
+export default Product;

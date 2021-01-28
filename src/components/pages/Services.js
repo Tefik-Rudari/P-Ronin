@@ -1,14 +1,14 @@
 import '../../App.css';
-import React from 'react';
+import Navbar from '../Navbar/Navbar'
 import Servicesinfo from '../Services/Servicesinfo.js';
 
- function Services() {
+function Services() {
   return (
     <>
+      <Navbar />
       <Servicesinfo />
     </>
   );
 }
 export default Services;
 
- 
