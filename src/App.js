@@ -8,6 +8,7 @@ import Projects from './components/pages/Projects';
 import Product from './components/pages/Product';
 import SignUp from './components/pages/Signup';
 
+
 function App() {
   return (
     <>
