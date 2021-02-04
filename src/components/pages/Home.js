@@ -2,7 +2,7 @@ import '../../App.css';
 // import React from 'react';
 import Navbar from '../Navbar/Navbar'
 import HeroSection from '../hero/HeroSection.js';
-import Servicesinfo from '../Services/Servicesinfo.js';
+import ServicesDetails from '../Services/ServicesDetails.js';
 import Footer from '../footer/Footer.js';
 
 
@@ -11,7 +11,7 @@ function Home() {
     <>
       <Navbar />
       <HeroSection />
-      <Servicesinfo />
+      <ServicesDetails />
       <Footer />
     </>
   );
