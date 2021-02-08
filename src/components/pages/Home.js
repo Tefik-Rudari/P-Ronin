@@ -1,6 +1,6 @@
 import '../../App.css';
 // import React from 'react';
-import Navbar from '../Navbar/Navbar'
+import Navigacionbar from '../Navbar/Navigacionbar'
 import HeroSection from '../hero/HeroSection.js';
 import ServicesDetails from '../Services/ServicesDetails.js';
 import Footer from '../footer/Footer.js';
@@ -9,7 +9,7 @@ import Footer from '../footer/Footer.js';
 function Home() {
   return (
     <>
-      <Navbar />
+      <Navigacionbar />
       <HeroSection />
       <ServicesDetails />
       <Footer />

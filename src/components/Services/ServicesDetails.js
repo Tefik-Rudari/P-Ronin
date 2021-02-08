@@ -46,9 +46,10 @@ const myTheme = deepMerge(grommet, {
         side: 'bottom',
         color: 'white',
         size: 'small',
-
-
       },
+      hover: {
+        background:'blue',
+      }
     },
   },
   tab: {
@@ -57,13 +58,13 @@ const myTheme = deepMerge(grommet, {
       color: 'grey',
       "disabled": {},
       "hover": {
-        color: 'grey',
-        background: 'grey',
+        color: 'blue',
+        background: 'blue',
       }
       
     },
     active: {
-      background: 'grey',
+      background: 'white',
       color: 'blue',
     },
     pad: 'large',
@@ -71,6 +72,10 @@ const myTheme = deepMerge(grommet, {
       vertical: '-2px',
       horizontal: 'none',
     },
+    hover: {
+      color: 'blue'
+    },
+
   },
 });
 
