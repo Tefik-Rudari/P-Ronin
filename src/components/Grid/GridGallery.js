@@ -4,7 +4,6 @@ import image2 from './img-9.jpg';
 // import Link from '@material-ui/core/Link';
 
 import {
-  grommet,
   Image,
   Box,
   Card,
@@ -32,7 +31,7 @@ function GridGallery() {
           <Card pad="small" >
             <div className="kont">
               {/* <Anchor className="kontinier" id="decpro" target="blank" href="http://decprojects.net/"> */}
-                <Image src={image1} fill="true" />
+                <Image className="foto" src={image1} fill="true" />
               {/* </Anchor> */}
               <Anchor id="decpro" target="blank" href="http://decprojects.net/">
                 <div className="overlay">
@@ -43,7 +42,7 @@ function GridGallery() {
           </Card>
           <Card pad="small">
             <Anchor id="decpro" target="blank" href="http://decprojects.net/">
-              <Image src={image1} fill="true" />
+              <Image className="foto" src={image1} fill="true" />
             </Anchor>
           </Card>
           <Card pad="small">
@@ -59,14 +58,3 @@ function GridGallery() {
 };
 
 export default GridGallery
-
-{/* <div className="container">
-<Anchor id="decpro" target="blank" href="http://decprojects.net/">
-<Image src={image1} fill="true" />
-</Anchor>
-<Anchor id="decpro" target="blank" href="http://decprojects.net/">
-<div className="overlay">
-<div className="text">Decpro</div>
-</div>
-</Anchor>
-</div> */}

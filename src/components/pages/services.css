@@ -52,4 +52,44 @@ section {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  } 
+  }
+  
+  .foto {
+    vertical-align: super;
+  }
+
+/* WhyChooseUs CSS */
+
+h1{
+  text-align: center;
+  color: #0BA5C3;
+  font:50px 'Gilroy', sans-serif;
+  font-weight: bold;
+}
+
+.maindiv{
+  text-align: center;
+}
+
+.topdiv{
+  display: flex;
+  justify-content: center;
+}
+
+.top1{
+  margin-right: 20px;
+  display: flex;
+}
+.top2{
+  margin-left: 20px;
+  display: flex;
+}
+
+.kontentdiv{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.kontenttitle{
+  font:18px 'Gilroy', sans-serif;
+}
