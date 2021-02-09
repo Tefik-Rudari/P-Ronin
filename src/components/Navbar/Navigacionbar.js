@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../Button/Button';
 import './Navigacionbar.css';
-import logo from './Logo-Blue.png';
+import logo from './Logo2.png';
 
 function Navigacionbar() {
   const [click, setClick] = useState(false);
@@ -29,10 +29,11 @@ function Navigacionbar() {
     <>
       <nav className='nav-bar'>
         <div className='nav-bar-container'>
+           <div className='logo'>
           <Link to='/' className='nav-bar-logo' onClick={closeMobileMenu}>            
-            <img src={logo} alt="this is car image" width="70" height="70" />
-            PRonins
+            <img src={logo} alt="This is our logo!" />
           </Link>
+            </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -67,6 +68,15 @@ function Navigacionbar() {
                 onClick={closeMobileMenu}
               >
                 Contact
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/projects'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About us
               </Link>
             </li>
 

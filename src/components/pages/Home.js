@@ -9,13 +9,13 @@ import Footer from '../footer/Footer.js';
 
 function Home() {
   return (
-    <>
+    <div className='maindiv'>
       <Navigacionbar />
       <HeroSection />
       <ServicesDetails />
       <WhyChooseUs />
       <Footer />
-    </>
+    </div>
   );
 }
 

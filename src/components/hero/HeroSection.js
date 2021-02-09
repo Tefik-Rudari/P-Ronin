@@ -2,14 +2,18 @@ import React from 'react';
 import '../../App.css';
 import { Button } from '../Button/Button';
 import './hero.css';
+import photo from './photo1.png';
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
+
       <div className='hero-content'>
 
       <h1>ADVENTURE AWAITS</h1>
-      <p>We are a focuesed, hard-working team, determined only on the greater good of the company!</p>
+      <p>We are a focuesed, hard-working team,</p>
+      <p>determined only on the greater good of the company!</p>
       <h3>Do not wait, join us!</h3>
       <div className='hero-btns'>
         <Button
@@ -20,6 +24,10 @@ function HeroSection() {
           GET STARTED
         </Button>
           </div>
+            </div>
+      <div className='info-image'>
+      <img src={photo} alt="image" width='30%' height='30%' />
+      
 
       </div>
     </div>

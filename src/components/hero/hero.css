@@ -8,22 +8,29 @@ video {
 
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 870px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+
   object-fit: contain;
-  background: #0ba5c3;
-  border: 2px solid #0ba5c3;
+  background: #4098a9;
   border-radius: 1px 1px 1px 250px;
+  margin-bottom: 5px;
+  padding: 100px;
 }
 
 .hero-content {
-align-self:baseline;
-margin: 60px;
+  align-self: baseline;
+  margin: 60px;
+  padding-top: 150px;
+  width: 100%;
+  min-width: 800px;
+}
+.info-image{
+  padding: 100px;
+  margin: 1px;
+  align-self: center;
 }
 
 .hero-content > h1 {
@@ -37,9 +44,8 @@ margin: 60px;
   font-family: 'Courier New'; 
 }
 
-
 .hero-content > p {
-  margin-top: 8px;
+  margin-top: 15px;
   color: #fff;
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
