@@ -34,7 +34,7 @@ function Servicesinfo() {
           <div className='sherbimet2'>
 
 
-            <p>Just like a book needs its cover, so do businesses need their branding. Our restless team will efficently offer great logos, branding and Social Media related services. </p>
+            <p>Just like a book needs it's cover, so do businesses need their branding. Our restless team will efficently offer great logos, branding and Social Media related services. </p>
 
 
           </div>
@@ -49,7 +49,7 @@ function Servicesinfo() {
           <div className='sherbimet3'>
 
 
-            <p>Just like a book needs its cover, so do businesses need their branding. Our restless team will efficently offer great logos, branding and Social Media related services. </p>
+            <p>Sometimes a web-site it's not enough, a company needs web related services. Such as SEO, E-mails, maintenece, consulting etc.</p>
 
 
           </div>
@@ -61,6 +61,3 @@ function Servicesinfo() {
 }
 
 export default Servicesinfo;
-
-
-
