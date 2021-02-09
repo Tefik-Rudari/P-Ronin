@@ -1,5 +1,5 @@
 import '../../App.css';
-import Navbar from '../Navbar/Navbar'
+import Navigacionbar from '../Navbar/Navigacionbar'
 import GridGallery from '../Grid/GridGallery'
 // import Gallery from 'react-photo-gallery'
 // import imazhi2 from '../Services/webpage.png';
@@ -14,7 +14,7 @@ import './services.css'
 function Services() {
   return (
     <>
-      <Navbar />
+      <Navigacionbar />
       <GridGallery />
     </>
   );
