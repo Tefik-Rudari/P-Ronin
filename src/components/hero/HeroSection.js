@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import { Button } from '../Button/Button';
 import './hero.css';
-import photo from './photo1.png';
+import photo from './image2.png';
 
 
 function HeroSection() {
@@ -26,7 +26,7 @@ function HeroSection() {
           </div>
             </div>
       <div className='info-image'>
-      <img src={photo} alt="image" width='30%' height='30%' />
+      <img src={photo} alt="image" width='100%' height='100%' />
       
 
       </div>
