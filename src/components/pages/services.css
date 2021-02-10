@@ -74,6 +74,8 @@ h1{
 .topdiv{
   display: flex;
   justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .top1{
@@ -87,9 +89,19 @@ h1{
 
 .kontentdiv{
   text-align: left;
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .kontenttitle{
-  font:18px 'Gilroy', sans-serif;
+  font:30px 'Gilroy', sans-serif;
+  font-weight: bold;
+  color: #403E3A;
+  margin-bottom: 30px;
+}
+
+.kontenttext{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #403E3A;
 }
