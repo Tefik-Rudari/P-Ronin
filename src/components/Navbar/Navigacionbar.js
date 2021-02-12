@@ -29,11 +29,11 @@ function Navigacionbar() {
     <>
       <nav className='nav-bar'>
         <div className='nav-bar-container'>
-           <div className='logo'>
-          <Link to='/' className='nav-bar-logo' onClick={closeMobileMenu}>            
-            <img src={logo} alt="This is our logo!" />
-          </Link>
-            </div>
+          <div className='logo'>
+            <Link to='/' className='nav-bar-logo' onClick={closeMobileMenu}>
+              <img src={logo} alt="This is our logo!" />
+            </Link>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

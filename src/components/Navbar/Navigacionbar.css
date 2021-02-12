@@ -10,6 +10,7 @@
   z-index: 999;
   opacity:inherit;
   color: white;
+  transition: 00.3s;
 }
 .nav-bar::after {
   background-color: #63bcce; 
@@ -119,20 +120,16 @@
     width: 100%;
     display: table;
   }
-
   .nav-links:hover {
     background-color: #0ba5c3;
     color: #242424;
     border-radius: 0;
   }
-
   .nav-bar-logo {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
   }
-
   .menu-icon {
     display: block;
     position: absolute;
@@ -142,7 +139,6 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
-
   .fa-times {
     color: #fff;
     font-size: 2rem;
