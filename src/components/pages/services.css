@@ -67,9 +67,9 @@ h1{
   font-weight: bold;
 }
 
-.maindiv{
+/* .maindiv{
   text-align: center;
-}
+} */
 
 .topdiv{
   display: flex;
@@ -104,4 +104,33 @@ h1{
   font-size: 20px;
   line-height: 34px;
   color: #403E3A;
+}
+
+@media screen and (max-width: 800px){
+  .topdiv{
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 70px;
+  }
+
+  .top1{
+    width: 100%;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .top2{
+    width: 100%;
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .kontenttitle{
+    font-size: 20px;
+  }
+  .kontenttext{
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
