@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
                     <div className="top2">
                         <div className="ikona"><i><FaTools size={35} color="#2DADE8" /></i></div>
                         <div className="kontentdiv">
-                            <p className="kontenttitle">Awesome Design</p>
+                            <p className="kontenttitle">Maintenance</p>
                             <p className="kontenttext">But I must explain to you how all this mistaken idea of<br/>
                             denouncing and praising but I must explain to you<br/>
                             how all this mistaken idea of denouncing and<br/>
