@@ -9,6 +9,9 @@ import service from './webservice.png';
 
 const myTheme = deepMerge(grommet, {
   global: {
+    "font": {
+      family: 'campton'          
+    },      
     colors: {
       // Overriding existing colors
       brand: '#4D4CDB',
@@ -37,22 +40,38 @@ const myTheme = deepMerge(grommet, {
       text: {
         dark: 'teal',
         light: 'purple',
+        font: {
+          family: 'campton'          
+        },    
       },
     },
   },
   tabs: {
+    text:{
+      font: {
+        family: 'campton'          
+      }
+      }, 
     header: {
+      text:{
+        font: {
+          family: 'campton'          
+        }
+        },    
       border: {
         side: 'bottom',
         color: 'white',
         size: 'small',
       },
       hover: {
-        background:'blue',
+        background:'#4098a9',
       }
     },
   },
   tab: {
+    font: {
+      family: 'campton'          
+    },    
     border: {
       side: 'bottom',
       color: 'grey',
@@ -86,12 +105,12 @@ function ServicesDetails() {
 
       <Grommet theme={myTheme}>
         <Tabs>
-          <Tab title="WEB SERVICES & PRODUCTS">
+          <Tab title="WEB SERVICES & PRODUCTS" theme={myTheme}>
             <Box pad="medium">
               <div className='box'>
                 <div className='services-content'>
                   <div className='imagess'>
-                    <img src={hook} alt="this is car image" />
+                    <img src={hook} alt="image" />
 
                   </div>
                   <div className='sherbimet'>
@@ -118,7 +137,7 @@ function ServicesDetails() {
               <div className='box'>
                 <div className='services-content'>
                   <div className='imagess'>
-                    <img src={page} alt="this is car image" />
+                    <img src={page} alt="image" />
                   </div>
                   <div className='sherbimet'>
 
@@ -147,7 +166,7 @@ function ServicesDetails() {
               <div className='box'>
                 <div className='services-content'>
                   <div className='imagess'>
-                    <img src={service} alt="this is car image" />
+                    <img src={service} alt="image" />
                   </div>
                   <div className='sherbimet'>
                     <p>Sometimes a web-site it's not enough, a company needs web related services. Such as SEO, E-mails, maintenece, consulting etc. I am running out of word what to say.</p>
