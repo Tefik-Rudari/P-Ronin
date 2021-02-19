@@ -10,8 +10,8 @@ function Home() {
   return (
     <div className='maindiv'>
       <HeroSection />
-      <ServicesDetails />
       <WhyChooseUs />
+      <ServicesDetails />
       <GridGallery />
       <Footer />
     </div>

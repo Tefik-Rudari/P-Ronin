@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -83,6 +84,8 @@
 
 .nav-links-mobile {
   display: none;
+  color: #0ba5c3;
+  
 }
 
 .menu-icon {
@@ -113,7 +116,9 @@
     transition: all 0.5s ease;
     z-index: 1;
   }
-
+  .btn--outline {
+    color: azure;
+  }
   .nav-links {
     text-align: center;
     padding: 2rem;
