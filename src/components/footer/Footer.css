@@ -85,7 +85,7 @@
 }
 
 .footer-dark .item.social > a:hover {
-  opacity:0.9;
+  background-color: #403E3A;
 }
 
 .footer-dark .copyright {

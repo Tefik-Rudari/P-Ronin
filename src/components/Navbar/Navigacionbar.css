@@ -56,8 +56,17 @@
   list-style: none;
   text-align: center;
   width: 60vw;
+  margin: 10px;
   justify-content: center;
   margin-right: 2rem;
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-menu:hover {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration:#242424;
 }
 
 .nav-item {
@@ -129,6 +138,7 @@
     background-color: #0ba5c3;
     color: #242424;
     border-radius: 0;
+
   }
   .nav-bar-logo {
     position: absolute;
