@@ -1,4 +1,4 @@
-.services-container {
+/* .services-container {
     position: relative;
     max-width: 100%;
     display: grid;
@@ -17,7 +17,7 @@
     font-size: 20px;
     place-items: center;
     opacity: 0.95;
-}
+} */
 .sherbimet {
     font-size: x-large;
     padding: 20px;
@@ -54,4 +54,43 @@ font-family: 'Montserrat', sans-serif;
 }
 .title {
     font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: 900px){
+    .sherbimet {
+        font-size: x-large;
+        padding: 0px;
+    }
+    .services-content  {
+    margin: 1px 1px 1px 1px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .services-content h1 {
+        text-align: center;
+        color: aliceblue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .sherbimet p{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .sherbimet ul {
+        padding: 1px 0%;
+        margin: 10x;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+    .sherbimet li {
+        padding: 1px;
+        margin: 1px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .imagess {
+        padding: 0px 0%;
+    }
+    .SherbimetTona {
+        padding: 0px;
+    }
+    .title {
+        font-family: 'Montserrat', sans-serif;
+    }
 }

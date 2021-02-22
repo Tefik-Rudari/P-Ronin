@@ -81,10 +81,17 @@ const myTheme = deepMerge(grommet, {
         background: 'blue',
       }
       
+      
     },
     active: {
       background: 'white',
       color: 'blue',
+      border: {
+      side: 'top, side',
+      color: 'black',
+      size: 'large',
+      
+    },
     },
     pad: 'large',
     margin: {
@@ -132,7 +139,7 @@ function ServicesDetails() {
               </div>
             </Box>
           </Tab>
-          <Tab title="BUSSINESS IDENTITY​">
+          <Tab title="BUSSINESS IDENTITY​" theme={myTheme}>
             <Box pad="medium">
               <div className='box'>
                 <div className='services-content'>
@@ -161,7 +168,7 @@ function ServicesDetails() {
               </div>
             </Box>
           </Tab>
-          <Tab title="WEB RELATED SERVICES">
+          <Tab title="WEB RELATED SERVICES" theme={myTheme}>
             <Box pad="medium">
               <div className='box'>
                 <div className='services-content'>
