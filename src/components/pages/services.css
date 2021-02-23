@@ -7,10 +7,9 @@
 }
 
 section {
-    height: 500px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
+    height: 750px;
+
+    position: relative;
 }
 
 .testy{

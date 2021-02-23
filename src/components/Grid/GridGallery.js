@@ -26,6 +26,7 @@ const customTheme = {
 function GridGallery() {
   const size = useContext(ResponsiveContext);
   return (
+    <section id='Projects'> 
     <Grommet className="container" theme={customTheme}>
       <Box pad="medium">
         <Grid columns={size !== 'medium' ? 'medium' : '100%'} gap="small">
@@ -64,6 +65,7 @@ function GridGallery() {
         </Grid>
       </Box>
     </Grommet>
+    </section>
   );
 };
 

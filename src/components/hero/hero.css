@@ -123,6 +123,7 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     margin-bottom: 100px;
+    
     padding: 0px;
 
   }
@@ -137,4 +138,11 @@
     text-decoration: none;
 
   }
+}
+@media screen and (max-width: 500px){
+.info-image {
+    position: relative;
+    margin: -27% 5% 1% 2%;
+    height: 470px;
+}
 }

@@ -8,6 +8,8 @@ import { FaTools } from "react-icons/fa"
 const WhyChooseUs = () => {
     return (
         <div>
+            <section id='WhyChooseUs'>
+
             <h1>Why choose us</h1>
             <br />
             <div className="maindiv">
@@ -60,6 +62,7 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
             </div>
+            </section>
         </div>
     )
 }

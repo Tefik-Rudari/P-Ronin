@@ -10,13 +10,13 @@ import main_div from './main_div.css';
 
 function Home() {
   return (
-    <div className='maindiv'>
+    <>
       <HeroSection />
       <WhyChooseUs />
       <ServicesDetails />
       <GridGallery />
       <Footer />
-    </div>
+    </>
   );
 }
 

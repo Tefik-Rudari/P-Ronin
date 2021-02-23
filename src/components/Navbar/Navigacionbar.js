@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Button } from '../Button/Button';
 import './Navigacionbar.css';
 import logo from './Logo2.png';
+import { Link } from 'react-scroll';
 
 function Navigacionbar() {
   const [click, setClick] = useState(false);
@@ -45,7 +45,12 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='WhyChooseUs'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -54,7 +59,12 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='Services'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -63,7 +73,12 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='Projects'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -72,7 +87,12 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='Services'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
