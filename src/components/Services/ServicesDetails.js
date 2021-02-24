@@ -10,8 +10,8 @@ import service from './webservice.png';
 const myTheme = deepMerge(grommet, {
   global: {
     "font": {
-      family: 'campton'          
-    },      
+      family: 'campton'
+    },
     colors: {
       // Overriding existing colors
       brand: '#4D4CDB',
@@ -41,37 +41,37 @@ const myTheme = deepMerge(grommet, {
         dark: 'teal',
         light: 'purple',
         font: {
-          family: 'campton'          
-        },    
+          family: 'campton'
+        },
       },
     },
   },
   tabs: {
-    text:{
+    text: {
       font: {
-        family: 'campton'          
+        family: 'campton'
       }
-      }, 
+    },
     header: {
-      text:{
+      text: {
         font: {
-          family: 'campton'          
+          family: 'campton'
         }
-        },    
+      },
       border: {
         side: 'bottom',
         color: 'white',
         size: 'small',
       },
       hover: {
-        background:'#4098a9',
+        background: '#4098a9',
       }
     },
   },
   tab: {
     font: {
-      family: 'campton'          
-    },    
+      family: 'campton'
+    },
     border: {
       side: 'bottom',
       color: 'grey',
@@ -80,18 +80,18 @@ const myTheme = deepMerge(grommet, {
         color: 'blue',
         background: 'blue',
       }
-      
-      
+
+
     },
     active: {
       background: 'white',
       color: 'blue',
       border: {
-      side: 'top, side',
-      color: 'black',
-      size: 'large',
-      
-    },
+        side: 'top, side',
+        color: 'black',
+        size: 'large',
+
+      },
     },
     pad: 'large',
     margin: {
@@ -109,93 +109,93 @@ const myTheme = deepMerge(grommet, {
 function ServicesDetails() {
   return (
     <div className="SherbimetTona">
-<secton id='Services'> 
-      <Grommet theme={myTheme}>
-        <Tabs>
-          <Tab title="WEB SERVICES & PRODUCTS" theme={myTheme}>
-            <Box pad="medium">
-              <div className='box'>
-                <div className='services-content'>
-                  <div className='imagess'>
-                    <img src={hook} alt="image" />
+      <secton id='Services'>
+        <Grommet theme={myTheme}>
+          <Tabs>
+            <Tab title="WEB SERVICES & PRODUCTS" theme={myTheme}>
+              <Box pad="medium">
+                <div className='box'>
+                  <div className='services-content'>
+                    <div className='imagess'>
+                      <img src={hook} alt="image" />
 
-                  </div>
-                  <div className='sherbimet'>
-                    <p>The idea that our services might help a business, is the greatest boost we have. We hope that you are our companion during our jurney, and our paths will help each other. </p>
+                    </div>
+                    <div className='sherbimet'>
+                      <p>The idea that our services might help a business, is the greatest boost we have. We hope that you are our companion during our jurney, and our paths will help each other. </p>
 
-                    <ul>
-                      <li>
-                        Pronins
+                      <ul>
+                        <li>
+                          Pronins
                                       </li>
-                      <li>
-                        Pronins
+                        <li>
+                          Pronins
                                       </li>
-                      <li>
-                        Pronins
+                        <li>
+                          Pronins
                                       </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </Box>
-          </Tab>
-          <Tab title="BUSSINESS IDENTITY​" theme={myTheme}>
-            <Box pad="medium">
-              <div className='box'>
-                <div className='services-content'>
-                  <div className='imagess'>
-                    <img src={page} alt="image" />
-                  </div>
-                  <div className='sherbimet'>
-
-
-
-                    <p>Just like a book needs it's cover, so do businesses need their branding. Our restless team will efficently offer great logos, branding and Social Media related services. </p>
-                    <ul>
-                      <li>
-                        Pronins
-                                      </li>
-                      <li>
-                        Pronins
-                                      </li>
-                      <li>
-                        Pronins
-                                      </li>
-                    </ul>
-
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Box>
-          </Tab>
-          <Tab title="WEB RELATED SERVICES" theme={myTheme}>
-            <Box pad="medium">
-              <div className='box'>
-                <div className='services-content'>
-                  <div className='imagess'>
-                    <img src={service} alt="image" />
-                  </div>
-                  <div className='sherbimet'>
-                    <p>Sometimes a web-site it's not enough, a company needs web related services. Such as SEO, E-mails, maintenece, consulting etc. I am running out of word what to say.</p>
-                    <ul>
-                      <li>
-                        Pronins
+              </Box>
+            </Tab>
+            <Tab title="BUSSINESS IDENTITY​" theme={myTheme}>
+              <Box pad="medium">
+                <div className='box'>
+                  <div className='services-content'>
+                    <div className='imagess'>
+                      <img src={page} alt="image" />
+                    </div>
+                    <div className='sherbimet'>
+
+
+
+                      <p>Just like a book needs it's cover, so do businesses need their branding. Our restless team will efficently offer great logos, branding and Social Media related services. </p>
+                      <ul>
+                        <li>
+                          Pronins
                                       </li>
-                      <li>
-                        Pronins
+                        <li>
+                          Pronins
                                       </li>
-                      <li>
-                        Pronins
+                        <li>
+                          Pronins
                                       </li>
-                    </ul>
+                      </ul>
+
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Box>
-          </Tab>
-        </Tabs>
-      </Grommet>
-</secton>
+              </Box>
+            </Tab>
+            <Tab title="WEB RELATED SERVICES" theme={myTheme}>
+              <Box pad="medium">
+                <div className='box'>
+                  <div className='services-content'>
+                    <div className='imagess'>
+                      <img src={service} alt="image" />
+                    </div>
+                    <div className='sherbimet'>
+                      <p>Sometimes a web-site it's not enough, a company needs web related services. Such as SEO, E-mails, maintenece, consulting etc. I am running out of word what to say.</p>
+                      <ul>
+                        <li>
+                          Pronins
+                                      </li>
+                        <li>
+                          Pronins
+                                      </li>
+                        <li>
+                          Pronins
+                                      </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </Box>
+            </Tab>
+          </Tabs>
+        </Grommet>
+      </secton>
     </div>
   );
 }

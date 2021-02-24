@@ -4,6 +4,7 @@ import ServicesDetails from '../Services/ServicesDetails.js';
 import WhyChooseUs from "../pages/WhyChooseUs"
 import GridGallery from '../Grid/GridGallery'
 import Footer from '../footer/Footer.js';
+import Stats from '../pages/Stats.js';
 import main_div from './main_div.css';
 
 
@@ -15,6 +16,7 @@ function Home() {
       <WhyChooseUs />
       <ServicesDetails />
       <GridGallery />
+      <Stats />
       <Footer />
     </>
   );
