@@ -22,10 +22,6 @@
   text-align: left !important;
 }
 
-.w-ikon{
-  color: #ED7C78;
-}
-
 .w-iconbcg{
   background-color: #FAEFEF;
   border-radius: 29px;
@@ -33,4 +29,41 @@
   height: 109px;
   padding-left: 37px;
   padding-top: 37px;
+  margin-bottom: 40px;
+}
+
+.w-iconbcgB{
+  background-color: #EFEEF9;
+  border-radius: 29px;
+  width: 109px;
+  height: 109px;
+  padding-left: 37px;
+  padding-top: 37px;
+  margin-bottom: 40px;
+}
+
+.w-headTitleL{
+  font-weight: 700;
+  letter-spacing: .4px;
+  color: #403E3A;
+  font-size: 27px;
+  margin-bottom: 34px;
+}
+
+.w-paragraphL{
+  color: #8E8E8E;
+  font-family: 'Gilroy';
+  line-height: 2;
+}
+
+.w-image{
+  width: 100%
+}
+
+.w-iconbcgBR{
+  background-color: #EFF9FE !important;
+}
+
+.w-iconbcgTR{
+  background-color: #F0FBF8 !important;
 }
