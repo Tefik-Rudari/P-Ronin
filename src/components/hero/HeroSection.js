@@ -19,9 +19,9 @@ function HeroSection() {
 
           <div className='hero-content'>
 
-            <h1>ADVENTURE AWAITS</h1>
-            <p>We are a focuesed, hard-working team,</p>
-            <p>determined only on the greater good of the company!</p>
+            <h1>Programming  Ronins</h1>
+            <p>We are a focused, hard-working team,</p>
+            <p>determined to deliver nothing short than the very best!</p>
             <h3>Do not wait, join us!</h3>
             <div className='hero-btns'>
               <Button
@@ -29,7 +29,7 @@ function HeroSection() {
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
               >
-                GET STARTED
+                Our Projects
         </Button>
             </div>
           </div>

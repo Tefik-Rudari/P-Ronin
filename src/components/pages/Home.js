@@ -1,6 +1,5 @@
 import '../../App.css';
 import HeroSection from '../hero/HeroSection.js';
-import ServicesDetails from '../Services/ServicesDetails.js';
 import WhyChooseUs from "../pages/WhyChooseUs"
 import GridGallery from '../Grid/GridGallery'
 import WhatWeDo from '../WhatWeDo/WhatWeDo'
@@ -15,7 +14,6 @@ function Home() {
     <>
       <HeroSection />
       <WhyChooseUs />
-      <ServicesDetails />
       <WhatWeDo />
       <GridGallery />
       <Stats />

@@ -10,7 +10,6 @@ export const Stats = () => {
   const Value3 = 25;
   const Value4 = 10;
   const Value5 = 0;
-
   const biznes = 20;
   
   

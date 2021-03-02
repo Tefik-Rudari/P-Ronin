@@ -34,12 +34,12 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-                Everywhere access
+               SEO
               </h3>
             </Col>
             <Col md={12}>
               <p className="w-paragraphL">
-                But I must explain to you how all this mistaken idea of denouncing
+              Good SEO, increases greatly the chances of successful interaction with users.
               </p>
             </Col>
           </Row>
