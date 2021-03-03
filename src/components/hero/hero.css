@@ -1,34 +1,41 @@
 .hero-container {
-  height: 770px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  object-fit: contain;
   background: #4098a9;
   border-radius: 1px 1px 1px 250px;
-  margin-bottom: 100px;
-  padding: 100px;
+  padding: 0px;
+  margin: 0px;
+
+}
+.hero-konteiner{
+  padding: 10px;
+  margin: 0px;
+}
+.rreshti {
+  padding: 0px;
+  margin: 0px;
+  width: 1000px;
+}
+.Kolona1 {
+  padding-bottom: -100px;
+  margin: 0px;
+  width: 100%;
+}
+.Kolona2 {
+  padding: 100px 20px 20px 20px;
+  margin: 0px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.w-image {
+  size: 50%;
 }
 
-.hero--con {
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
 .hero-content {
-
+  margin: 100px 0px 60px 115px;
   padding: 2%;
-  margin: 60px;
   text-align: start;
 }
-.info-image{
 
-  height: 881px;
-  padding-top: 15%;
-  margin: 43%;
-  align-self: center;
-  width: 800px;
-  position: absolute;
-}
 .hero-content > h1 {
   color: #fff;
   font-size: 80px;
@@ -55,94 +62,4 @@
 }
 .fa-play-circle {
   margin-left: 4px;
-}
-@media screen and (max-width: 1550px) {
-  .info-image {
-    height: 69%;
-    padding-top: 15%;
-    margin: 20% 0% 20% 45%;
-    align-content: self-end;
-    width: 40%;
-    position: absolute;
-  }
-}
-@media screen and (max-width: 1430px) {
-  .info-image {
-    height: 681px;
-    padding-top: 15%;
-    margin: 21% 0% 20% 48%;
-    align-content: self-end;
-    width: 600px;
-    position: absolute;
-  }
-}
-@media screen and (max-width: 1363px) {
-  .info-image {
-    height: 640px;
-    width: 582px;
-    margin: -28% 0% 1% 21%;
-    flex-wrap: wrap;
-    position: relative;
-
-  }
-  .hero-container {
-    margin-bottom: 100px;
-    padding: 50px;
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 1240px) {
-  .info-image {
-    height: 640px;
-    width: 582px;
-    margin: -28% 0% 1% 21%;
-  }
-
-}
-
-@media screen and (max-width: 960px) {
-  .hero-container {
-    margin-bottom: 100px;
-    padding: 50px;
-    flex-wrap: wrap;
-    padding: 0px;
-    
-  }
-  .hero-container h1 {
-    font-size: 70px;  
-    text-align: start;
-  }
-  .info-image {
-    position: relative;
-    margin: -27% -3% 22% 29%;
-    height: 500px;
-    width: 500px;
-  }
-
-}
-@media screen and (max-width: 768px) {
-  .hero-container {
-    margin-bottom: 100px;
-    
-    padding: 0px;
-
-  }
-  .hero-container h1 {
-    font-size: 50px;
-    padding: 0px;
-}
-  .hero-container  p {
-    font-size: 15px;
-}
-  .btn-mobile {
-    text-decoration: none;
-
-  }
-}
-@media screen and (max-width: 500px){
-.info-image {
-    position: relative;
-    margin: -27% 5% 1% 2%;
-    height: 470px;
-}
 }

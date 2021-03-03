@@ -10,7 +10,8 @@ import Phone from '../../assets/phone-img.png'
 
 const WhatWeDo = () => {
   return <>
-    <Container>
+
+    <Container id="whatwedocontainer">
       <Row className="w-heading">
         <Col md={12} className="awesome-features">
           <h1 className="w-headTitle">
@@ -59,7 +60,7 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <p className="w-paragraphL">
-                But I must explain to you how all this mistaken idea of denouncing
+                Any idea if well developed, can reach a great margin of success.
               </p>
             </Col>
           </Row>
@@ -87,7 +88,7 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <p className="w-paragraphL">
-                But I must explain to you how all this mistaken idea of denouncing
+               Functionality is not enough, a good product must look good.
               </p>
             </Col>
           </Row>
@@ -102,12 +103,12 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-                Free download
+                Marketing
               </h3>
             </Col>
             <Col md={12}>
               <p className="w-paragraphL">
-                But I must explain to you how all this mistaken idea of denouncing
+                A product is as good as it is used or valued by people.
               </p>
             </Col>
           </Row>

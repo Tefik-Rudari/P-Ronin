@@ -13,9 +13,9 @@ function Footer() {
             <div class="col-sm-12 col-md-4 item">
               <h3>Services</h3>
               <ul>
-                <li><a href="#">Web design</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">Hosting</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">SEO, Consulting and Hosting</a></li>
               </ul>
             </div>
             <div class="col-sm-12 col-md-4 item">

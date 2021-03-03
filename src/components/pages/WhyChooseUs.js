@@ -60,10 +60,11 @@ const WhyChooseUs = () => {
                                         <div className="top1">
                                             <div className="ikona"><ImBug size={35} color="#8475CF" /></div>
                                             <div className="kontentdiv">
-                                                <p className="kontenttitle">Functionality</p>
-                                                <p className="kontenttext"> Functionality is the greatest indicator of a good product.
-                                                A product with good functionality, dyed with good design
-                                                and providing good service to our partners, is what defines our company.
+                                                <p className="kontenttitle">Marketing & Promoting</p>
+                                                <p className="kontenttext"> 
+                                               Getting people to know a companies services is never been more easily reached, and in order to attract as much clients as possible, a business needs to have 
+                                               good marketing strategies. 
+                                          
                                         </p>
                                             </div>
                                         </div>

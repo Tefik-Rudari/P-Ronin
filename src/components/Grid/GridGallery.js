@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import image1 from './decpro.PNG';
 import image2 from './img-8.jpg';
 import image3 from './ipu2.png';
+import "./gallery.css"
 // import Link from '@material-ui/core/Link';
 
 import {

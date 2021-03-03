@@ -17,19 +17,22 @@ export const Stats = () => {
 
 
   return (
-    <Container>
+    
+    <Grommet theme={grommet}>
+        <Container fluid="true">
+        <Row className="rreshtistats">
 
-      <Grommet theme={grommet}>
-        <Row>
-
-          <Col md="auto">
+          <Col md="12">
             <div className='titleofstats'>
 
               <h2>Case Study of </h2> <h2 className='biznesi'> {biznes}</h2><h2> businesses per field with web-application.</h2>
             </div>
           </Col>
-        </Row>
-        <Row>
+          </Row>
+          </Container>
+          <Container fluid="true">
+        <Row className="rreshtistats">
+
           <Col md="4">
 
 
@@ -159,8 +162,8 @@ export const Stats = () => {
             </div>
           </Col>
         </Row>
-      </Grommet>
     </Container>
+      </Grommet>
   );
 };
 
