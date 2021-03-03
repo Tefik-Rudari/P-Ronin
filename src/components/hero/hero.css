@@ -16,9 +16,8 @@
 }
 .hero-content {
 
-  padding-top: 5%;
+  padding: 2%;
   margin: 60px;
-  min-width: 800px;
   text-align: start;
 }
 .info-image{
@@ -124,6 +123,7 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     margin-bottom: 100px;
+    
     padding: 0px;
 
   }
@@ -138,4 +138,11 @@
     text-decoration: none;
 
   }
+}
+@media screen and (max-width: 500px){
+.info-image {
+    position: relative;
+    margin: -27% 5% 1% 2%;
+    height: 470px;
+}
 }

@@ -1,16 +1,70 @@
-.services-content{
-    padding: 50px;
-    justify-content: center;
-    text-align: center;
-    border: 1px black;
-
+.Kontineri1 {
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px 200px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+}
+.titulliboksit {
+  color: black;
+  font-variant: all-small-caps;
+}
+.box1 {
+  padding: 20px;
+  display: grid;
+  font-size: 20px;
+  place-items: center;
 }
 
+.biznesi {
+  color: #3abb74;
+  font-weight: bold;
+  padding: 0px 9px;
+  
+}
+
+.Kontineri1 .box1:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.Kontineri1 .box1:nth-child(2) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.Kontineri1 .box1:nth-child(3) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.Kontineri1 .box1:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+/*  */
+@media screen and (max-width: 1600px){
+  .Kontineri1 .box1:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .Kontineri1 .box1:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .Kontineri1 .box1:nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .Kontineri1 .box1:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+}
 section {
-    height: 500px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
+  height: 750px;
+
+    position: relative;
 }
 
 .testy{

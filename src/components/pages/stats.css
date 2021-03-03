@@ -1,0 +1,59 @@
+.titleofstats {
+    text-align: center;
+    margin: 10px;
+    padding: 100px 10px 10px 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+.Kontineri {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 40px 200px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+}
+.titulliboksit {
+    color: black;
+    font-variant: all-small-caps;
+}
+.box {
+    padding: 20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+}
+
+.biznesi {
+    color: #3abb74;
+    font-weight: bold;
+    padding: 0px 9px;
+    
+}
+
+.Kontineri .box:nth-child(1) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.Kontineri .box:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.Kontineri .box:nth-child(3) {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.Kontineri .box:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.Kontineri .box:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.biznes {
+    color: blueviolet;
+}
