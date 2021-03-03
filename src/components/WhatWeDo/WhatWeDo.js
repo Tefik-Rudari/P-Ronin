@@ -34,12 +34,12 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-               SEO
+              Engineering
               </h3>
             </Col>
             <Col md={12}>
               <p className="w-paragraphL">
-              Good SEO, increases greatly the chances of successful interaction with users.
+              To have an idea is not enough, we must craft it. 
               </p>
             </Col>
           </Row>
@@ -54,7 +54,7 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-                All device synchronized
+                IT Consulting
               </h3>
             </Col>
             <Col md={12}>
@@ -82,7 +82,7 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-                High security
+                Designing 
               </h3>
             </Col>
             <Col md={12}>
