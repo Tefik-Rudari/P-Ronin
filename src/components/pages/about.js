@@ -6,7 +6,7 @@ import { Row, Col, Image } from 'react-bootstrap'
 
 export const About = () => {
 const name = "PRonins";
-const description = " is a software company founded by a group of engineers and friends. Our main goal is to increase the level of digitalization in our country. The company's name PRonins, is a composite of the words: Programming Ronins.  ";
+const description = " is a software company founded by a group of engineers and friends. Our main goal is to increase the level of digitalization in our country. The company's name PRonins, is a composition of the words: Programming Ronins.  ";
 const seconddescription = " To grow as a company and individually, we believe that hardwork is not the only tool. But by reaching out to people more, giving back and helping others to have a online reference flag. With that said, we would like to share our cardinal virtues: practical wisdom, resilience, fairness and courage.";
 const thirddescription = " Having our ideas and principles firmly in our grip, we will strive to do our part at the maximum level of dedication and precision. ";
   

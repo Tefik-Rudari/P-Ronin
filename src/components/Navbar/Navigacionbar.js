@@ -45,6 +45,20 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
+                to='About'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Our company
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
                 to='WhyChooseUs'
                 activeClass="active"
                 spy={true}
@@ -54,7 +68,7 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Why choose us?
               </Link>
             </li>
             <li className='nav-item'>
@@ -68,7 +82,8 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Projects
+                What we do
+                
               </Link>
             </li>
             <li className='nav-item'>
@@ -82,23 +97,11 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Contact
+                Projects
+
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='Services'
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                About us
-              </Link>
-            </li>
+   
 
             <li>
               <Link

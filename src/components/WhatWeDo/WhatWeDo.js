@@ -18,12 +18,7 @@ const WhatWeDo = () => {
             What we do
           </h1>
         </Col>
-        <Col md={12}>
-          <p className="w-paragraph">
-            But I must explain to you how all this mistaken idea of denouncing and praising but I <br />
-            must explain to you how all this mistaken idea of  denouncing and praising
-          </p>
-        </Col>
+
       </Row>
       <Row>
         <Col md={3}>
@@ -103,7 +98,7 @@ const WhatWeDo = () => {
             </Col>
             <Col md={12}>
               <h3 className="w-headTitleL">
-                Marketing
+                Marketing & SEO
               </h3>
             </Col>
             <Col md={12}>
