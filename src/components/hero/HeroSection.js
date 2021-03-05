@@ -1,9 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button/Button';
+import { Container } from 'react-bootstrap'
+import { Row, Col, Image } from 'react-bootstrap'
 import './hero.css';
-import photo from './image2.png';
+import Girl from './image2.png';
 import Navigacionbar from '../Navbar/Navigacionbar'
+
 
 
 
@@ -11,36 +14,43 @@ import Navigacionbar from '../Navbar/Navigacionbar'
 function HeroSection() {
   return (
     <>
+
+
       <div className='hero'>
         <Navigacionbar />
-        <div className='hero-con'>
 
-        <div className='hero-container'>
+          <div className='hero-container'>
+            <Container fluid="true" className="hero-konteiner">
+              <Row>
+                <Col lg="6">
+                  
 
-          <div className='hero-content'>
+                  <div className='hero-content'>
 
-            <h1>ADVENTURE AWAITS</h1>
-            <p>We are a focuesed, hard-working team,</p>
-            <p>determined only on the greater good of the company!</p>
-            <h3>Do not wait, join us!</h3>
-            <div className='hero-btns'>
-              <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-              >
-                GET STARTED
+                    <h1>Programming  Ronins</h1>
+                    <p>We are a focused, hard-working team,</p>
+                    <p>determined to deliver nothing short than the very best!</p>
+                    <h3>Do not wait, join us!</h3>
+                    <div className='hero-btns'>
+                      <Button
+                        className='btns'
+                        buttonStyle='btn--outline'
+                        buttonSize='btn--large'
+                      >
+                        Our Projects
         </Button>
-            </div>
-          </div>
-          <div className='info-image'>
-            <img src={photo} alt="image" width='100%' height='100%' />
+                    </div>
+                  </div>
+                </Col>
+                <Col lg="6" className="Kolona2">
+                    <Image src={Girl} alt={Girl} className="w-image" />
 
 
+                </Col>
+              </Row>
+            </Container>
           </div>
         </div>
-      </div>
-      </div>
     </>
   );
 }
