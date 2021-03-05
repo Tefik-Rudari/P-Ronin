@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import image1 from './decpro.PNG';
 import image2 from './img-8.jpg';
 import image3 from './ipu2.png';
+import commingSoon from '../../assets/Facebook-Post.jpg'
 import "./gallery.css"
 // import Link from '@material-ui/core/Link';
 
@@ -59,26 +60,16 @@ function GridGallery() {
             <Card pad="small" >
               <div className="kont">
                 {/* <Anchor className="kontinier" id="decpro" target="blank" href="http://decprojects.net/"> */}
-                <Image className="foto" src={image2} fill="true" />
+                <Image className="foto" src={commingSoon} fill="true" />
                 {/* </Anchor> */}
-                <Anchor id="decpro" target="blank" href="http://decprojects.net/">
-                  <div className="overlay">
-                    <div className="text">Comming soon</div>
-                  </div>
-                </Anchor>
               </div>
             </Card>
             
             <Card pad="small" >
               <div className="kont">
                 {/* <Anchor className="kontinier" id="decpro" target="blank" href="http://decprojects.net/"> */}
-                <Image className="foto" src={image2} fill="true" />
+                <Image className="foto" src={commingSoon} fill="true" />
                 {/* </Anchor> */}
-                <Anchor id="decpro" target="blank" href="http://ipu-ks.net/">
-                  <div className="overlay">
-                    <div className="text">Comming soon</div>
-                  </div>
-                </Anchor>
               </div>
             </Card>
        
