@@ -28,6 +28,7 @@ function GridGallery() {
   const size = useContext(ResponsiveContext);
   return (
     <section id='Projects'>
+      <h1 className="projectsname"> Projects</h1>
       <Grommet className="container" theme={customTheme}>
         <Box pad="medium">
           <Grid columns={size !== 'medium' ? 'medium' : '100%'} gap="small">

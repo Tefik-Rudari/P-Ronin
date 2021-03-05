@@ -82,7 +82,7 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                What we do
+                What we do?
                 
               </Link>
             </li>
@@ -101,9 +101,24 @@ function Navigacionbar() {
 
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='Contact'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
+
+              </Link>
+            </li>
    
 
-            <li>
+            {/* <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
@@ -112,8 +127,8 @@ function Navigacionbar() {
                 Sign Up
               </Link>
             </li>
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>

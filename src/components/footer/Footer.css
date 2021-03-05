@@ -18,6 +18,7 @@
   color:#403E3A;
   font-size:14px;
   margin-bottom:0;
+  align-items: center;
 }
 
 .footer-dark ul a {
@@ -32,6 +33,7 @@
 
 .row{
   text-align: center;
+  align-items: center;
 }
 
 @media (max-width:767px) {
@@ -69,6 +71,12 @@
     margin-top:20px;
   }
 }
+iframe {
+  border-width: 0px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
 
 .footer-dark .item.social > a {
   font-size:20px;
@@ -85,7 +93,7 @@
 }
 
 .footer-dark .item.social > a:hover {
-  background-color: #403E3A;
+  background-color: #9dd2dd;
 }
 
 .footer-dark .copyright {
@@ -94,4 +102,5 @@
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+  color:#727171;
 }
