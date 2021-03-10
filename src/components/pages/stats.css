@@ -1,11 +1,10 @@
-/* .titleofstats {
+.titleofstats {
     text-align: center;
-    margin: 10px;
-    padding: 100px 10px 10px 10px;
+    padding: 100px;
     justify-content: center;
     display: flex;
     
-} */
+}
 .titulliboksit {
     color: black;
     font-variant: all-small-caps;
@@ -23,8 +22,17 @@
     padding: 0px 9px;
     
 }
+.row {
+    margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
+#Stats {
+
+    margin-right: 0px !important; 
+    margin-left: 0px !important;
+}
 
 
-.biznes {
-    color: blueviolet;
+.biznes h2 {
+    color: aqua !important;
 }

@@ -17,26 +17,30 @@ export const Stats = () => {
 
 
   return (
-    <Container>
+    
+    <Grommet theme={grommet}>
+        <Container fluid="true">
+        <Row id="Stats">
 
-      <Grommet theme={grommet}>
-        <Row>
-
-          <Col md="auto">
+          <Col md="12">
             <div className='titleofstats'>
 
               <h2>Case Study of </h2> <h2 className='biznesi'> {biznes}</h2><h2> businesses per field with web-application.</h2>
+              
             </div>
           </Col>
-        </Row>
-        <Row>
+          </Row>
+          </Container>
+          <Container fluid="true">
+        <Row className="rreshtistats">
+
           <Col md="4">
 
 
 
             <div className='box'>
               <Box align="center" pad="large">
-                <h4 className='titulliboksit'>Muzike</h4>
+                <h4 className='titulliboksit'>Shfaqjet artistike</h4>
                 <Stack anchor="center">
                   <Meter
                     type="circle"
@@ -44,6 +48,8 @@ export const Stats = () => {
                     values={[{ value: Value }]}
                     size="xsmall"
                     thickness="small"
+                    stroke="#74C9C8"
+                    color="#74C9C8"
                   />
                   <Box direction="row" align="center" pad={{ bottom: 'xsmall' }}>
                     <Text size="xlarge" weight="bold">
@@ -159,8 +165,8 @@ export const Stats = () => {
             </div>
           </Col>
         </Row>
-      </Grommet>
     </Container>
+      </Grommet>
   );
 };
 

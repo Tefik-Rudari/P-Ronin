@@ -1,7 +1,5 @@
 section {
-  height: 750px;
 
-    position: relative;
 }
 
 .testy{
@@ -15,7 +13,12 @@ section {
     padding-left: 0px;
     padding-right: 0px;
   }
-
+  #WhyChooseUs {
+    margin-top: 100px;
+  }
+  .kontenttext1 {
+    color: aqua;
+  }
 .overlay {
   position: absolute;
   top: 0;
@@ -26,7 +29,7 @@ section {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #232525;
+  background-color: #4098A9;
 }
 .kont:hover .overlay {
   opacity: 0.8;
@@ -91,5 +94,13 @@ h1{
   font-size: 20px;
   line-height: 34px;
   color: #403E3A;
+  display: inline;
+}
+.kontenttext1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  color: #0BA5C3;
+  display: inline;
 }
 

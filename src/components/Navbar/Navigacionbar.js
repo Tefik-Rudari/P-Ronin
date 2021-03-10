@@ -45,6 +45,20 @@ function Navigacionbar() {
             </li>
             <li className='nav-item'>
               <Link
+                to='About'
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Our company
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
                 to='WhyChooseUs'
                 activeClass="active"
                 spy={true}
@@ -54,12 +68,12 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Why choose us?
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='Services'
+                to='whatwedocontainer'
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -68,7 +82,8 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Projects
+                What we do?
+                
               </Link>
             </li>
             <li className='nav-item'>
@@ -82,12 +97,13 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Contact
+                Projects
+
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='Services'
+                to='Contact'
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -96,11 +112,13 @@ function Navigacionbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About us
+                Contact
+
               </Link>
             </li>
+   
 
-            <li>
+            {/* <li>
               <Link
                 to='/sign-up'
                 className='nav-links-mobile'
@@ -109,8 +127,8 @@ function Navigacionbar() {
                 Sign Up
               </Link>
             </li>
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>
