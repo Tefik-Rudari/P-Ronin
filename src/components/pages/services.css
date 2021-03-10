@@ -29,7 +29,7 @@ section {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #232525;
+  background-color: #4098A9;
 }
 .kont:hover .overlay {
   opacity: 0.8;

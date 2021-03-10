@@ -30,14 +30,18 @@ function HeroSection() {
                     <h1>Programming  Ronins</h1>
                     <p>We are a focused, hard-working team,</p>
                     <p>determined to deliver nothing short than the very best!</p>
-                    <h3>Do not wait, join us!</h3>
                     <div className='hero-btns'>
                       <Button
+                        to='Projects'
                         className='btns'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
                         buttonStyle='btn--outline'
                         buttonSize='btn--large'
                       >
-                        Our Projects
+                        Statistics
         </Button>
                     </div>
                   </div>

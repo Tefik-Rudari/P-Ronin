@@ -2,12 +2,11 @@ import React from 'react'
 import './WhatWeDo.css';
 import { Container } from 'react-bootstrap'
 import { Row, Col, Image } from 'react-bootstrap'
-import { FiMapPin } from "react-icons/fi"
-import { GoSync } from "react-icons/go"
-import { MdSecurity } from "react-icons/md"
-import { FiDownload } from "react-icons/fi"
+import { CgDesignmodo } from "react-icons/cg"
+import { CgCodeSlash } from "react-icons/cg"
+import { GoCommentDiscussion } from "react-icons/go"
+import { GiProgression } from "react-icons/gi"
 import Phone from '../../assets/phone-img.png'
-
 const WhatWeDo = () => {
   return <>
 
@@ -15,7 +14,7 @@ const WhatWeDo = () => {
       <Row className="w-heading">
         <Col md={12} className="awesome-features">
           <h1 className="w-headTitle">
-            What we do
+            What we do?
           </h1>
         </Col>
 
@@ -25,7 +24,7 @@ const WhatWeDo = () => {
           <Row className="w-leftContent mb-5 mt-5">
             <Col md={12}>
               <div className="w-iconbcg">
-                <FiMapPin size={36} color="#2DADE8" />
+                <CgCodeSlash size={36} color="#2DADE8" />
               </div>
             </Col>
             <Col md={12}>
@@ -45,7 +44,7 @@ const WhatWeDo = () => {
           <Row className="w-leftContent">
             <Col md={12}>
               <div className="w-iconbcgB">
-                <GoSync size={36} color="#8475CF" />
+                <GoCommentDiscussion size={36} color="#8475CF" />
               </div>
             </Col>
             <Col md={12}>
@@ -60,20 +59,22 @@ const WhatWeDo = () => {
             </Col>
           </Row>
         </Col>
+        <Col md={1}> </Col>
 
-        <Col md={6}>
+        <Col md={4}>
           <Row>
             <Col md={11}>
               <Image src={Phone} alt={Phone} className="w-image" />
             </Col>
           </Row>
         </Col>
+        <Col md={1}> </Col>
 
         <Col md={3}>
           <Row className="w-leftContent mb-5 mt-5">
             <Col md={12}>
               <div className="w-iconbcg w-iconbcgTR">
-                <MdSecurity size={36} color="#77DEC3" />
+                <CgDesignmodo size={36} color="#77DEC3" />
               </div>
             </Col>
             <Col md={12}>
@@ -93,7 +94,7 @@ const WhatWeDo = () => {
           <Row className="w-leftContent">
             <Col md={12}>
               <div className="w-iconbcgB w-iconbcgBR">
-                <FiDownload size={36} color="#77CFF7" />
+                <GiProgression size={36} color="#77CFF7" />
               </div>
             </Col>
             <Col md={12}>

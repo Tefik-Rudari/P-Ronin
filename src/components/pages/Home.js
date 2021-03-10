@@ -18,7 +18,6 @@ function Home() {
       <WhyChooseUs />
       <WhatWeDo />
       <GridGallery />
-      <Stats />
       <Footer />
     </>
   );

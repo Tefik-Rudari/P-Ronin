@@ -26,13 +26,13 @@
     margin-right: 0px !important; 
     margin-left: 0px !important;
 }
-.rreshtistats {
+#Stats {
 
     margin-right: 0px !important; 
     margin-left: 0px !important;
 }
 
 
-.biznes {
-    color: blueviolet;
+.biznes h2 {
+    color: aqua !important;
 }

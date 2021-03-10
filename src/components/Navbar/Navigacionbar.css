@@ -13,6 +13,9 @@
   color: white;
   transition: 00.3s;
 }
+a:hover {
+  text-decoration: none;
+}
 .nav-bar::after {
   background-color: #63bcce; 
   bottom: 0;

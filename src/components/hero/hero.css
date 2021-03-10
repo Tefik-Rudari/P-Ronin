@@ -62,6 +62,7 @@
   margin: 6px;
   color: aliceblue;
   border: solid 1px;
+  visibility: hidden;
 }
 .fa-play-circle {
   margin-left: 4px;
