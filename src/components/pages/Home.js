@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-    <About />
+      <About />
       <WhyChooseUs />
       <WhatWeDo />
       <GridGallery />

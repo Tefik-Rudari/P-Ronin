@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
                 <div className="maindiv">
                     <div className='Kontineri1'>
                         <Row className="mb-5 mt-5">
-                            <Col md={6} className="colon 1">
+                            <Col md={12} lg={12} xl={6} className="colon 1">
 
 
                                 <div className=' box1'>
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                                 </div>
                             </Col>
                       
-                            <Col md={6}>
+                            <Col md={12} lg={12} xl={6} xl={6}>
 
                                 <div className=' box1'>
                                     <div className="top1">
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col md={6}>
+                            <Col md={12} lg={12} xl={6}>
                                 <div className=' box1'>
                                     <div className="top1">
                                         <div className="top1">
@@ -76,8 +76,8 @@ const WhyChooseUs = () => {
                                 </div>
                             </Col>
                  
-                            <Col md={6}>                               
-                                <div className=' box1'>
+                            <Col md={12} lg={12} xl={6}>                               
+                                <div className='box1'>
                                     <div className="top1">
                                         <div className="ikona"><i><FaTools size={35} color="#2DADE8" /></i></div>
                                         <div className="kontentdiv">
