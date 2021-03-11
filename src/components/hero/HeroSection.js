@@ -22,7 +22,7 @@ function HeroSection() {
         <div className='hero-container'>
           <Container fluid="true" className="hero-konteiner">
             <Row>
-              <Col lg="6">
+              <Col md={12} lg={12} xl={6}>
 
 
                 <div className='hero-content'>
@@ -46,7 +46,7 @@ function HeroSection() {
                   </div>
                 </div>
               </Col>
-              <Col lg="6" className="Kolona2">
+              <Col md={12} lg={12} xl={6} className="Kolona2">
                 <Image src={Girl} alt={Girl} className="w-image" />
 
 
