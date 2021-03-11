@@ -89,7 +89,7 @@ h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   line-height: 34px;
-  color: #403E3A;
+  color: #8E8E8E;
   display: inline;
 }
 .kontenttext1{
@@ -100,3 +100,12 @@ h1{
   display: inline;
 }
 
+@media only screen and (max-width: 1165px) {
+  .kontenttext1, .kontenttext {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  .box11{
+    margin-bottom: 30px;
+  }
+}
