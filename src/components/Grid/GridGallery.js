@@ -50,7 +50,7 @@ function GridGallery() {
                 {/* <Anchor className="kontinier" id="decpro" target="blank" href="http://decprojects.net/"> */}
                 <Image className="foto" src={image3} fill="true" />
                 {/* </Anchor> */}
-                <Anchor id="decpro" target="blank" href="http://ipu-ks.net/">
+                <Anchor id="decpro" target="blank" href="http://ipu-ks.org/">
                   <div className="overlay">
                     <div className="text">IPU</div>
                   </div>
