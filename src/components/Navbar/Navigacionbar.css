@@ -75,6 +75,10 @@ a:hover {
 .nav-item {
   height: 80px; 
 }
+.nav-item :hover{
+  height: 80px; 
+  border-bottom: 4px solid white;
+}
 
 .nav-links {
   color: white;
@@ -86,8 +90,10 @@ a:hover {
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #0ba5c3;
+  /* border-bottom: 4px solid white; */
   transition: all 0.2s ease-out;
+  color: white;
+  text-decoration: none;
 }
 
 .fa-bars {
