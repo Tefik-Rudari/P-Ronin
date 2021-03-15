@@ -19,42 +19,42 @@ function HeroSection() {
       <div className='hero'>
         <Navigacionbar />
 
-          <div className='hero-container'>
-            <Container fluid="true" className="hero-konteiner">
-              <Row>
-                <Col lg="6">
-                  
+        <div className='hero-container'>
+          <Container fluid="true" className="hero-konteiner">
+            <Row>
+              <Col md={12} lg={12} xl={6}>
 
-                  <div className='hero-content'>
 
-                    <h1>Programming  Ronins</h1>
-                    <p>We are a focused, hard-working team,</p>
-                    <p>determined to deliver nothing short than the very best!</p>
-                    <div className='hero-btns'>
-                      <Button
-                        to='Projects'
-                        className='btns'
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        buttonStyle='btn--outline'
-                        buttonSize='btn--large'
-                      >
-                        Statistics
+                <div className='hero-content'>
+
+                  <h1>Programming  Ronins</h1>
+                  <p>We are a focused, hard-working team,</p>
+                  <p>determined to deliver nothing short than the very best!</p>
+                  <div className='hero-btns'>
+                    <Button
+                      to='Projects'
+                      className='btns'
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      buttonStyle='btn--outline'
+                      buttonSize='btn--large'
+                    >
+                      Statistics
         </Button>
-                    </div>
                   </div>
-                </Col>
-                <Col lg="6" className="Kolona2">
-                    <Image src={Girl} alt={Girl} className="w-image" />
+                </div>
+              </Col>
+              <Col md={12} lg={12} xl={6} className="Kolona2">
+                <Image src={Girl} alt={Girl} className="w-image" />
 
 
-                </Col>
-              </Row>
-            </Container>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
+      </div>
     </>
   );
 }

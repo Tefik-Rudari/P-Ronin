@@ -73,7 +73,11 @@ a:hover {
 }
 
 .nav-item {
-  height: 80px;
+  height: 80px; 
+}
+.nav-item :hover{
+  height: 80px; 
+  border-bottom: 4px solid white;
 }
 
 .nav-links {
@@ -86,8 +90,10 @@ a:hover {
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #0ba5c3;
+  /* border-bottom: 4px solid white; */
   transition: all 0.2s ease-out;
+  color: white;
+  text-decoration: none;
 }
 
 .fa-bars {
@@ -104,7 +110,7 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1165px) {
   .nav-barItems {
     position: relative;
   }
@@ -119,6 +125,10 @@ a:hover {
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+  .nav-item {
+    height: 80px;
+    font-size: 40px;
   }
 
   .nav-menu.active {
