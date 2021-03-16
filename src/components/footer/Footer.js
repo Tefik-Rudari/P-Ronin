@@ -39,7 +39,7 @@ function Footer() {
             >
               <i class='fab fa-facebook-f' />
             </a>
-            <a href="https://www.instagram.com/pronnins"
+            <a href="https://www.instagram.com/pronins_team/"
               target='_blank'
             >
               <i class='fab fa-instagram' />
