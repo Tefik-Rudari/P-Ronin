@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
                             <Col md={12} lg={12} xl={6} className="colon 1">
 
 
-                                <div className=' box1'>
+                                <div className=' box1 box11'>
                                     <div className="top1">
                                         <div className="ikona"><GiPencilRuler size={35} color="#EA6B66" /></div>
                                         <div className="kontentdiv">
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
                         </Row>
                         <Row>
                             <Col md={12} lg={12} xl={6}>
-                                <div className=' box1'>
+                                <div className=' box1 box11'>
                                     <div className="top1">
                                         <div className="top1">
                                             <div className="ikona"><FcComboChart size={35} color="#8475CF" /></div>

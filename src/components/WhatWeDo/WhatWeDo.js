@@ -20,7 +20,7 @@ const WhatWeDo = () => {
 
       </Row>
       <Row>
-        <Col md={3}>
+        <Col md={12} lg={3}>
           <Row className="w-leftContent mb-5 mt-5">
             <Col md={12}>
               <div className="w-iconbcg">
@@ -61,7 +61,7 @@ const WhatWeDo = () => {
         </Col>
         <Col md={1}> </Col>
 
-        <Col md={4}>
+        <Col md={7} lg={4} className="imageOnMobile">
           <Row>
             <Col md={11}>
               <Image src={Phone} alt={Phone} className="w-image" />
@@ -70,7 +70,7 @@ const WhatWeDo = () => {
         </Col>
         <Col md={1}> </Col>
 
-        <Col md={3}>
+        <Col md={12} lg={3}>
           <Row className="w-leftContent mb-5 mt-5">
             <Col md={12}>
               <div className="w-iconbcg w-iconbcgTR">
